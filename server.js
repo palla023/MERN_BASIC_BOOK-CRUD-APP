@@ -10,7 +10,7 @@ app.use(cors());
 app.use("/books", router); // localhost:5000/books
 mongoose
   .connect(
-    "mongodb+srv://Book:Book@cluster0.scnemhb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://UserName:Password@cluster0.scnemhb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   ).then(() => {
     app.listen(5000);
   })
